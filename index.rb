@@ -1,5 +1,3 @@
-# Day 2, Homework 2
-
 puts "\r"
 puts "========="
 puts "Part 1"
