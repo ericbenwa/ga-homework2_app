@@ -57,3 +57,14 @@ while user <= 10
 end
 
 puts "\r"
+puts "========="
+puts "Part 5: Extra Credit"
+puts "========="
+
+require 'prime'
+
+prime = 10
+
+puts Prime.take(prime)
+
+puts "\r"
