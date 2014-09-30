@@ -17,7 +17,8 @@ puts "========="
 puts "Part 2"
 puts "========="
 
-n = 0
+puts "Please enter a number, any number."
+n = gets.chomp.to_i
 total_n = 0
 max = 20
 
