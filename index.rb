@@ -18,15 +18,15 @@ puts "Part 2"
 puts "========="
 
 puts "Please enter a number, any number."
-n = gets.chomp.to_i
+max = gets.chomp.to_i
 puts "\r"
-total_n = 0
-max = 20
+min = 1
+total_part_two = 0
 
-while n <= max
-	total_n += n
-	n += 1
-	puts total_n
+while min <= max
+	total_part_two += min
+	min += 1
+	puts total_part_two
 end
 
 puts "\r"
