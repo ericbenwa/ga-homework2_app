@@ -19,6 +19,7 @@ puts "========="
 
 puts "Please enter a number, any number."
 n = gets.chomp.to_i
+puts "\r"
 total_n = 0
 max = 20
 
@@ -64,7 +65,9 @@ puts "========="
 
 require 'prime'
 
-prime = 10
+puts "Please enter a number, any number."
+prime = gets.chomp.to_i
+puts "\r"
 
 puts Prime.take(prime)
 
